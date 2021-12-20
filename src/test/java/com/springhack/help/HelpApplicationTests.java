@@ -1,4 +1,4 @@
-package com.springhack.help.demo;
+package com.springhack.help;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
