@@ -1,6 +1,6 @@
 package com.springhack.help.service;
 
-import com.springhack.help.Accessor.S3Accessor;
+import com.springhack.help.accessor.S3Accessor;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -13,7 +13,7 @@ public class LoginServiceImpl implements LoginService {
     }
 
     public String login(String mail, String password) {
-        String file = s3Accessor.get("foo", "bar");
-        return file;
+        String s3get = s3Accessor.get(mail, password);
+        return s3get;
     }
 }
