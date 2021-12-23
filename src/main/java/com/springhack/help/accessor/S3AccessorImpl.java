@@ -1,4 +1,4 @@
-package com.springhack.help.Accessor;
+package com.springhack.help.accessor;
 
 import org.springframework.stereotype.Component;
 
